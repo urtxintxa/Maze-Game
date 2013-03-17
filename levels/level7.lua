@@ -185,12 +185,12 @@ function love.draw()
             end
 		end
 	end
-	
-	
+		
 	for k = 1,10 do
-		love.graphics.setColor(63, 126, 63)
+		love.graphics.setColor(176, 126, 63)
 		love.graphics.rectangle("line", enemy[k].pos_x, enemy[k].pos_y, enemy[k].size_w, enemy[k].size_h)
 	end
+	
 end
 
 -- Funcion Tecla Pulsada
