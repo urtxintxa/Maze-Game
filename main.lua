@@ -11,5 +11,4 @@ font = love.graphics.newFont("font/8-BIT.TTF", 17)
 music:setLooping(true)
 love.audio.play(music)
 
-
 love.filesystem.load("menus/menu.lua")()
