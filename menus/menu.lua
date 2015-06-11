@@ -45,7 +45,7 @@ function love.draw()
 	love.graphics.setColor(255, 0, 0)
 	love.graphics.draw(title, 250, 100)
 
-	love.graphics.setCaption("Maze Game")
+	love.window.setTitle("Maze Game")
 	
 	love.graphics.setColor(0, 0, 255)
 	if menu3 == 1 then
